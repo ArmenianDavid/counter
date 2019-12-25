@@ -1,0 +1,54 @@
+
+.counter{
+  font-size: 16px;
+}
+/* count */
+.count-div{
+  text-align: right;
+  background-color: white;
+  width: 98%;
+  height: 1.2em;
+  border-radius: 1em;
+}
+.count-div span{
+  padding-right: 0.5em;
+}
+/* add buttons */
+.incriment-decrioment-butttons{
+  padding-top: 0.2em;
+  display: flex;
+  justify-content: center;
+}
+.leftBtn{
+  width: 100%;
+  padding-right: 0.3em;
+}
+.leftBtn button{
+  width: 100%;
+}
+.rightBtn{
+  width: 100%;
+  padding-left: 0.3em;
+}
+.rightBtn button{
+  width: 100%;
+}
+/* Reset */
+.reset-div{
+  display: flex;
+  justify-content: center;
+}
+.reset-div button{
+  border-radius: 50%;
+  padding: 0.5em;
+  outline: none;
+  color: grey;
+}
+.reset-div button:hover{
+  color: white;
+}
+/* Start value */
+.start-value-container{
+  display: flex;
+  justify-content: center;
+}
